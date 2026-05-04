@@ -1,8 +1,9 @@
-#--Seletor de caracteres--#
-letra = input("Digite a Letra")
+print("Sistemas Seletor de Caracteres🔠")
+print("Escolha uma letra e veja se está disponível🤖")
+letra = input("Digite a Letra: ").upper()
 if letra == "A":
-  print("Você escolheu a Letra "A")
+  print("Você escolheu a Letra A 😉")
 elif letra == "B":
-  print("Você escolheu a Letra "B")
+  print("Você escolheu a Letra B 😉")
 else:
-  print("Essa opção não esta disponivel")
+  print("Essa opção não está disponível")  
