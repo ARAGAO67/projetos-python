@@ -10,7 +10,7 @@ else:
     print("errou era brasil😣/n")
 
 # pergunta 2
-print("2- quantos jogadores tem no time?/n a- 9/n b- 10/n c- 11")
+print("2- Qual jogador é o maior artilheiro da história da Liga dos Campeões da UEFA (Champions League)??/n a- Mbappé/n b- Haaland/n c- Cristiano Ronaldo")
 r2 = input("resposta: ")
 
 if r2 == "c":
