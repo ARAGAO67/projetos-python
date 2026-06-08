@@ -1,6 +1,6 @@
 #Etapa 1 - Cálculo do IMC
-def calc_imc(imc)
-    imc = peso/ (altura*altura)
+def calc_imc(peso,altura):
+    imc = peso / (altura*altura)
     return imc
 
 #Etapa 2 - Classificação do IMC
@@ -10,8 +10,8 @@ def classificar_imc(resultado):
     else:
         return "PESO NORMAL"
 #Etapa 3 - Mensagem de Retorno
-def mensagem(staus):
-    if status == "ACIMA DO PESO"
+def mensagem(status):
+    if status == "ACIMA DO PESO":
         return "🫷🫸Atenção! procure um médico"
     else:
         return "👌Seu peso está normal! continue assim"
@@ -25,6 +25,6 @@ saida = mensagem(resultado_imc)
 
 print("="*50)
 print("Resultado do seu IMC")
-print(f"\n seu IMC é:{valor_imc})
+print(f"\n seu IMC é:{valor_imc:.1f}")
 print(f"\ {saida}")
 print("="*50)
